@@ -9,10 +9,17 @@
 
 <?php 
 $nome = "Felix Mavila";
+
+//constante
 const PAIS = "Angola";
 
 //echo "Olá $nome Seja bem vindo ao PHP";
 echo PAIS;
+
+//Outra Maneira de definir variaveis constantes
+define("CIDADE","Luanda");
+
+echo CIDADE;
 
 ?>
     
