@@ -9,6 +9,9 @@
 
 <?php 
 $nome = "Felix Mavila";
+$idade = 23;
+$peso = 60.7;
+$casado = false;
 
 //constante
 const PAIS = "Angola";
@@ -20,6 +23,13 @@ echo PAIS;
 define("CIDADE","Luanda");
 
 echo CIDADE;
+
+
+function somaNumerosInteiros(int $primeiroNumero,int $segundoNumero) : int {
+    return $primeiroNumero + $segundoNumero;
+}
+
+echo somaNumerosInteiros(1,2);
 
 ?>
     
