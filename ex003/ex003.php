@@ -9,8 +9,10 @@
 
 <?php 
 $nome = "Felix Mavila";
+const PAIS = "Angola";
 
-echo "Olá $nome Seja bem vindo ao PHP";
+//echo "Olá $nome Seja bem vindo ao PHP";
+echo PAIS;
 
 ?>
     
