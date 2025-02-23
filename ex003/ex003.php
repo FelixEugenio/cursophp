@@ -41,6 +41,14 @@ var_dump($nome);
 
 $vetor = [1,2,3];
 var_dump($vetor);
+
+
+function CalcularPotencia(int $base,int $expoente):int{
+return $base ** $expoente;
+}
+
+echo CalcularPotencia(2,3);
+
 ?>
     
 </body>

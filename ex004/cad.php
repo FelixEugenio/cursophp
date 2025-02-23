@@ -13,8 +13,8 @@
 
     <main>
         <?php
-            $nome = $_POST['nome'];
-            $sobrenome = $_POST['sobrenome'];
+            $nome = $_POST['nome'] ?? 'Sem nome';
+            $sobrenome = $_POST['sobrenome'] ?? 'Sem sobrenome';
             echo "Olá $nome $sobrenome! Seja bem vindo!";
         ?>
     </main>
