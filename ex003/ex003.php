@@ -25,12 +25,22 @@ define("CIDADE","Luanda");
 echo CIDADE;
 
 
-function somaNumerosInteiros(int $primeiroNumero,int $segundoNumero) : int {
+function somaDoisNumerosInteiros(int $primeiroNumero,int $segundoNumero) : int {
     return $primeiroNumero + $segundoNumero;
 }
 
-echo somaNumerosInteiros(1,2);
+function calcularRaizQuadrada(float $valor):float{
+    $resultado = sqrt($valor);
+    return number_format($resultado,2,".","");
+}
 
+echo calcularRaizQuadrada(89);
+echo somaDoisNumerosInteiros(1,2);
+
+var_dump($nome);
+
+$vetor = [1,2,3];
+var_dump($vetor);
 ?>
     
 </body>
