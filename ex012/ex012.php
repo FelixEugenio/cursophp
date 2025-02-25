@@ -10,8 +10,6 @@
 <?php 
 class Carro {
     public $modelo;
-
-
     public function __construct(string $modelo){
                 $this-> modelo = $modelo;
     }
