@@ -20,11 +20,16 @@
     public function __get(string $name) {
       return $this->dados[$name] ?? null;
     }
+
+    public function __destruct() {
+      echo "Objeto foi destruido";  
+    }
 }
 
 $pessoa = new Pessoa();
 $pessoa->nome = "Felix";
 echo $pessoa->nome;
+unset($pessoa);
     
     ?>
     
