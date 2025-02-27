@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php 
-    class Pessoa{
+    class Pessoa {
         public $name;
         public $email;
         public $age;
@@ -20,6 +20,11 @@
 
         public function Falar(){
             return "$this->name está falando";
+        }
+
+        public function __destruct()
+        {
+            echo "Objeto destruído";
         }
 
     }
