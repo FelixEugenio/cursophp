@@ -14,8 +14,8 @@ class Animal{
 
     public function __construct(string $name,int $age)
     {
-        $this->name = $name;
-        $this->age = $age;
+        $this->setName($name);
+        $this->setAge($age);
     }
     
     public function getName(){
