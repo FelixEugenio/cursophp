@@ -1,0 +1,14 @@
+{
+    "name": "express/composer",
+    "description": "teste coposer",
+    "require": {
+        "dompdf/dompdf": "^3.1",
+        "pagseguro/pagseguro-php-sdk": "^4.2"
+    },
+    "authors": [
+        {
+            "name": "Felix Eugenio Mavila",
+            "email": "felixmacarenco@gmail.com"
+        }
+    ]
+}
