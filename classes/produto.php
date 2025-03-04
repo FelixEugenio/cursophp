@@ -2,7 +2,7 @@
 namespace classes;
 class Produto {
     public function showProductDetails(){
-        echo "Detalhes do produto";
+        echo "Detalhes do produto Alterado";
     }
 }
 
